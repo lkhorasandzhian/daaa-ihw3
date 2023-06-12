@@ -1,0 +1,14 @@
+# ninja log v5
+19	990	7083094504022194	CMakeFiles/DaAA_IHW_3.dir/library/test.cpp.obj	b45a4a7b7aaf32c5
+0	277	7083090352005874	CMakeFiles/DaAA_IHW_3.dir/main.cpp.obj	d6fc8476ec9ad563
+12	773	7083094501854906	CMakeFiles/DaAA_IHW_3.dir/library/unit_test.cpp.obj	49ab167a6e3b34e0
+129	1000	7083090359206616	CMakeFiles/DaAA_IHW_3.dir/library/graph_converter.cpp.obj	b3d98cf03cbacbae
+3	830	7083094502426466	CMakeFiles/DaAA_IHW_3.dir/library/searching_algorithms.cpp.obj	9f72587ca83b31db
+19	1221	7083090361460606	CMakeFiles/DaAA_IHW_3.dir/library/graph_generator.cpp.obj	c72303c84396d6b0
+60	1227	7083090361510468	CMakeFiles/DaAA_IHW_3.dir/library/result_file_recorder.cpp.obj	77b862866c45df05
+990	1320	7083094507300172	DaAA_IHW_3.exe	2263e94fea4caae3
+1	144	7083120382281333	build.ninja	d2550d4f9a7af1a7
+3	950	7083120392014681	CMakeFiles/DaAA_IHW_3.dir/library/result_file_recorder.cpp.obj	77b862866c45df05
+951	1239	7083120394886561	DaAA_IHW_3.exe	2263e94fea4caae3
+4	858	7083121640949468	CMakeFiles/DaAA_IHW_3.dir/library/result_file_recorder.cpp.obj	77b862866c45df05
+858	1137	7083121643730712	DaAA_IHW_3.exe	2263e94fea4caae3
