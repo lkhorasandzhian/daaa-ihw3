@@ -5,6 +5,9 @@
 #include <cstdint>
 #include "edge.h"
 
+/// Изменение размера графа.
+std::vector<std::vector<int>> resizeGraph(int request, const std::vector<std::vector<int>> &old_g);
+
 /// Конвертация базового графа в представление для алгоритма Дейкстры.
 std::vector<std::vector<std::pair<int, int64_t>>> getDijkstraGraph(const std::vector<std::vector<int>> &g);
 
@@ -13,5 +16,8 @@ std::vector<Edge> getBellmanFordGraph(const std::vector<std::vector<int>> &g);
 
 /// Конвертация базового графа в представление для алгоритма Флойда-Уоршелла.
 std::vector<std::vector<int64_t>> getFloydWarshallGraph(const std::vector<std::vector<int>> &g);
+
+/// Получение вектора рёбер.
+std::vector<Edge> getEdges(const std::vector<std::vector<int>> &g);
 
 #endif //DAAA_IHW_3_DAAA_IHW_3_LIBRARY_GRAPH_CONVERTER_H_

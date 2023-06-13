@@ -5,8 +5,11 @@
 #include <cstdint>
 #include "edge.h"
 
-/// Алгоритм Дейкстры.
-int64_t searchDijkstra(int destination, const std::vector<std::vector<std::pair<int, int64_t>>> &g);
+/// Алгоритм Дейкстры на очереди с приоритетом.
+int64_t searchDijkstraPq(int destination, const std::vector<std::vector<std::pair<int, int64_t>>> &g);
+
+/// Алгоритм Дейкстры на сете.
+int64_t searchDijkstraSet(int destination, const std::vector<std::vector<std::pair<int, int64_t>>> &g);
 
 /// Алгоритм Беллмана-Форда.
 int64_t searchBellmanFord(int destination, const std::vector<Edge> &edges);
